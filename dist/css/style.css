@@ -153,6 +153,46 @@
   margin-right: 50px;
 }
 
+.advantages {
+  padding-top: 43px;
+  padding-bottom: 105px;
+}
+
+.advantages__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advantages__img {
+  margin-right: 60px;
+}
+
+.advantages__title {
+  font-family: "Ledger";
+  font-style: normal;
+  font-size: 70px;
+  line-height: 97px;
+  color: #000000;
+  margin-bottom: 6px;
+}
+
+.advantages__desc {
+  font-family: "Ledger";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.advantages__desc:not(:first-of-type) {
+  margin-top: 6px;
+}
+
 * {
   margin: 0;
   padding: 0;

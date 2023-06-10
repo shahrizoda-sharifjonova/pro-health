@@ -1,0 +1,30 @@
+.advantages{
+    padding-top: 43px;
+    padding-bottom: 105px;
+    &__body{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img{
+        margin-right: 60px;
+    }
+    &__title{
+        font-family: 'Ledger';
+        font-style: normal;
+        font-size: 70px;
+        line-height: 97px;
+        color: #000000;
+        margin-bottom: 6px;
+    }
+    &__desc{
+        font-family: 'Ledger';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 42px;
+        color: #000000;
+        &:not(:first-of-type){
+            margin-top: 6px;
+        }
+    }
+}
