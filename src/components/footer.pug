@@ -1,3 +1,12 @@
 mixin footer()
     footer.footer   
         .footer__body.container
+            a(href="index.html").logo 
+                img(src="@img/logo.png", alt="" draggable="false") 
+            .footer__profile    
+                .footer__img 
+                    img(src="@img/footer-ava.svg", alt="" draggable="false")
+                .footer__info 
+                    p.footer__p Контакты
+                    p.footer__p Email:#[a(href="mailto::PROhealth@PROhealth.ru") PROhealth@PROhealth.ru]
+                    p.footer__p Телефон::#[a(href="tel::+7(967)3358017") +7(967)-335-80-17]
