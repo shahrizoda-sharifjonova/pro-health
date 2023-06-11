@@ -1,0 +1,26 @@
+.doctors{
+    padding-bottom: 250px;
+    &__row{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        &:not(:last-of-type){
+            margin-bottom: 95px;
+        }
+    }
+    &__img{
+        margin-right: 50px;
+    }
+    &__p{
+        font-family: 'Ledger';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+        letter-spacing: -0.005em;
+        color: #000000;
+        &:first-of-type{
+            margin-bottom: 50px;
+        }
+    }
+}

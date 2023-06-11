@@ -1,0 +1,25 @@
+.head{
+    background: url(../img/head-bg.png) center / cover no-repeat;
+    padding-top: 30px;
+    padding-bottom: 75px;
+    &__title{
+        font-family: 'Ledger';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 89px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 32px;
+    }
+    &__desc{
+        font-family: 'Ledger';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+        letter-spacing: -0.005em;
+        color: #000000;
+    }
+}

@@ -1,0 +1,39 @@
+.footer{
+    background: #A8E4E1;
+    padding-top: 27px;
+    
+    &__body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__col{
+        &:not(:last-of-type){
+            margin-right: 37px;
+        }
+    }
+    &__profile{
+        display: flex;
+        align-items: center;
+    }
+    &__img{
+        margin-right: 15px;
+    }
+    &__p{
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 29px;
+        color: #000000;
+    }
+    &__links{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+    &__link{
+        display: block;
+        &:not(:last-of-type){
+            margin-right: 22px;
+        }
+    }
+}

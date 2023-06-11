@@ -1,0 +1,27 @@
+.service{
+    background: url(../img/service-bg.png) center / cover no-repeat;
+    padding-top: 45px;
+    padding-bottom: 122px;
+    &__title{
+        font-family: 'Ledger';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 89px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 70px;
+    }
+    &__desc{
+        font-family: 'Ledger';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+        letter-spacing: -0.005em;
+        color: #000000;
+        width: 100%;
+        text-align: center;
+    }
+}
